@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html>
+  <head onkeypress="input()">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/web.css') }}">
+    <script language="JavaScript" type="text/javascript" src="{{ url_for('static', filename='script/main.js') }}"></script>
+    <title>Raspberry GUI</title>
+  </head>
+  <body onload="start()" onkeypress="input()">
+    <h1 class = "choose">Choose Program</h1>
+    <p>
+      <a href="/run_plex">
+        <img id ="Plex" src ="" class="plex" onmouseover="select_image(1)">
+      </a>
+    </p>
+    <p class="retropie">
+      <a href="/run_retropie">
+        <img id ="Retropie" src ="" class="retropie" onmouseover="select_image(2)">
+      </a>
+    </p>
+     <!--element onkeypress="input()"-->
+  </body>
+</html>

@@ -1,0 +1,29 @@
+body {
+  background-color: black;
+}
+
+.choose{
+  color: white;
+}
+
+
+.plex{
+  position: absolute;
+  top: 30%;
+  left: 17%;
+  width: 500px;
+  height: 500px;
+}
+.retropie{
+  position: absolute;
+  top: 20%;
+  right: 14%;
+  width: 500px;
+  height: 500px;
+}
+.choose{
+  text-align: center;
+  top: 30%;
+
+  font-size: 60px;
+}
